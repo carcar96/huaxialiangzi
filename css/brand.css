@@ -1,0 +1,608 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/font_1.1.1/iconfont.eot');
+  src: url('../fonts/font_1.1.1/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/font_1.1.1/iconfont.woff') format('woff'),
+  url('../fonts/font_1.1.1/iconfont.ttf') format('truetype'),
+  url('../fonts/font_1.1.1/iconfont.svg#iconfont') format('svg');
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/font_1.1.2/iconfont.eot');
+  src: url('../fonts/font_1.1.2/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/font_1.1.2/iconfont.woff') format('woff'),
+  url('../fonts/font_1.1.2/iconfont.ttf') format('truetype'),
+  url('../fonts/font_1.1.2/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:24px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 10px;
+  color: #c09f82;
+}
+
+
+.brand .container p{
+	text-indent: 2em;
+}
+.main{
+	margin-top: 20px;
+}
+
+.main .container{
+	width: 60%;
+	margin: 0 auto;
+}
+
+/**手机屏幕**/
+@media (max-width:550px){
+    .main .container{
+        width: 90%;
+    }
+
+    .main .container .col-xs-3{
+        width: 16%;
+    }
+
+    .main .container .col-xs-9{
+        width: 84%;
+    }
+}
+
+.main .container .row{
+	margin-top:20px;
+}
+
+.main .container .row div > .title{
+	width: 95%;
+	height: 45px;
+	margin: 20px auto;
+	-webkit-box-shadow: 0 5px 5px #aaa;
+    background-color: #efeff0;
+}
+.main .container .row div > .title h2{
+	margin-top: 0;
+	font-size: 16px;
+    line-height: 45px;
+}
+
+.main .container .row .col-xs-9{
+	padding: 20px 15px;
+	-webkit-box-shadow: 0 0 5px #ccc;
+	margin-bottom: 120px;
+}
+
+.main .container .row .col-xs-9 p {
+    font-size: 13px;
+    line-height: 25px;
+    padding: 0 15px;
+}
+
+ul.nav-tabs{
+    width: 10%;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+}
+
+.nav-tabs > li > a:hover {
+    color: #fff;
+    background-color: #c09f82;
+}
+
+ul.nav-tabs li{
+    margin: 0;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+ul.nav-tabs li:first-child{
+    border-top: none;
+}
+ul.nav-tabs li a{
+    margin: 0;
+    padding: 8px 0px;
+    border-radius: 0;
+    color: #c09f82;
+}
+.main .container .row ul.nav-tabs li.active a,.main .container .row ul.nav-tabs li.active a:hover{
+    color: #fff;
+    background: #c09f82;
+    border: 1px solid #c09f82;
+}
+ul.nav-tabs li:first-child a{
+    border-radius: 4px 4px 0 0;
+}
+ul.nav-tabs li:last-child a{
+    border-radius: 0 0 4px 4px;
+}
+ul.nav-tabs.affix{
+    top: 200px;
+}
+
+ul.nav-tabs.affix1{
+    top:450px;
+}
+ul.nav-tabs.affix2{
+    top:550px;
+}
+
+
+
+.brand .col-xs-3,.col-sm-3{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.brand .container .row div > .title:first-child{
+    margin: 20px auto;
+}
+.brand .container .row div > .title{
+	margin: 40px auto;
+}
+
+/***joinus****/
+.joinus .container .row .col-xs-9 .up h4{
+    border-bottom: 2px solid #eaeaea;
+    color: #ccc;
+    text-indent: 0;
+    padding-bottom: 10px;
+}
+
+.joinus .container .row .col-xs-9 .up .text-center img{
+    margin-top:-43px;
+}
+
+.joinus .container .row .col-xs-9 .up .row .img{
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.joinus .container .row .col-xs-9 .up .marginbox{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.joinus .container .row .col-xs-9 .up .marginbox .col-md-3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.joinus .container .row .col-xs-9 .up .margin_box h4{
+    border-bottom:none;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box img{
+    margin: auto;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3{
+    padding: 10px;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 > div {
+    border-bottom: 5px solid #efefef;
+    border: 1px solid #e5e5e5;
+    padding: 15px;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 > .div1 {
+    border-top: 5px solid #d81e06;
+}
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 > .div1 a{
+    color: #d81e06;
+    font-weight: bold;
+    border-color: #d81e06;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 > .div1 a:hover{
+    color: #fff;
+    background: #d81e06;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 > .div2 {
+    border-top: 5px solid #a686ba;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 > .div2 a{
+    color: #d81e06;
+    font-weight: bold;
+    border-color: #a686ba;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 > .div2 a:hover{
+    color: #fff;
+    background: #a686ba;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 > .div3 {
+    border-top: 5px solid #85c55d;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 > .div3 a{
+    color: #d81e06;
+    font-weight: bold;
+    border-color: #85c55d;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 > .div3 a:hover{
+    color: #fff;
+    background: #85c55d;
+}
+
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 > .div4 {
+    border-top: 5px solid #1296db;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 > .div4 a{
+    color: #d81e06;
+    font-weight: bold;
+    border-color: #1296db;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 > .div4 a:hover{
+    color: #fff;
+    background: #1296db;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 .div1_1 p{
+    text-indent: 0;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 .div1_1 h4{
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 .div1_1 span{
+    display: block;
+    background: #bbbbbb;
+    height: 2px;
+    width: 50px;
+    margin: 10px auto;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 .div1_2 p{
+    text-indent: 0;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 .div1_2 h4{
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 .div1_2 span{
+    display: block;
+    background: #bbbbbb;
+    height: 2px;
+    width: 50px;
+    margin: 10px auto;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 .div1_3 p{
+    text-indent: 0;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 .div1_3 h4{
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 .div1_3 span{
+    display: block;
+    background: #bbbbbb;
+    height: 2px;
+    width: 50px;
+    margin: 10px auto;
+}
+
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 .div1_4 p{
+    text-indent: 0;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 .div1_4 h4{
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.joinus .container .row .col-xs-9 .up .margin_box .col-md-3 .div1_4 span{
+    display: block;
+    background: #bbbbbb;
+    height: 2px;
+    width: 50px;
+    margin: 10px auto;
+}
+
+.joinus .container .row .col-xs-9 div > h2{
+    color: #c09f82;
+}
+.joinus .container .row .col-xs-9 div > p{
+    text-indent: 2em;
+}
+
+.joinus .container .row .col-xs-9 div > h4{
+    color: #c09f82;
+    font-size: 16px;
+}
+
+.joinus .container .row .col-xs-9 div > h5{
+    line-height: 21px;
+}
+
+.joinus .container .row .col-xs-9 .picture{
+    width: 100%;
+    margin-top: 20px;
+    background: url(../images/join_ulRightBg.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+
+.joinus .container .row .col-xs-9 .picture h1{
+    font-size: 35px;
+    color: #875c40;
+    font-weight: bold;
+}
+
+.joinus .container .row .col-xs-9 .picture h2{
+    font-size: 25px;
+    color: #875c40;
+}
+
+.joinus .container .row .col-xs-9 .picture h4{
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.joinus .container .row .col-xs-9 .picture h5{
+    font-size: 12px;
+    color: #969595;
+    line-height: 1;
+}
+.joinus .container .row .col-xs-9 div .text-left{
+    line-height: 1.3em;
+}
+.joinus .container .row .col-xs-9 .text-left h5{
+    font-weight: 600;
+}
+
+.joinus .container .row .col-xs-9 div .text-left p{
+   text-indent: 0;
+}
+
+.joinus .container .row .col-xs-9  div .title:first-child{
+    margin: 20px auto;
+}
+.joinus .container .row .col-xs-9  div .title{
+	margin-bottom: 40px !important;
+	margin-top: 40px !important;
+}
+
+.alignbox{
+   margin: 0 20px;
+}
+
+.alignbox hr {
+    margin-top: 20px;
+}
+
+/***养生页面***/
+.physiotherapy .project p{
+    text-indent: 1em;
+}
+
+.main ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.main .col-md-4,.col-md-9,.col-md-12,.col-sm-12,.col-md-2 ,.col-sm-2 ,.col-xs-2,.col-md-10 ,.col-sm-10 ,.col-xs-10{
+    padding-left: 0; 
+}
+
+.main .col-md-3,.col-md-4,.col-md-12,.col-sm-12,.col-md-2 ,.col-sm-2 ,.col-xs-2,.col-md-10 ,.col-sm-10 ,.col-xs-10{
+    padding-right: 0; 
+}
+.main .container .row .col-md-4 img{
+    width: 100%;
+}
+
+.main .container .row .col-md-9{
+    margin-bottom: 30px;
+}
+
+.main .container .row .content {
+    background: #efefef;
+    margin-bottom: 30px;
+    width: 92%;
+}
+
+.main .container .row ul li a{
+    color: #c09f82;
+}
+.main .container .row ul li a:hover{
+    color: #fff;
+    background: #c09f82;
+}
+
+.main .container .row .content h5{
+    font-weight: 600;
+}
+
+.main .container .row .content a{
+    text-decoration: none;
+    color: #333;
+    line-height: 1.4;
+}
+
+.main .container .row .content a:hover{
+    color: #c09f82;
+}
+
+.main .container .row .article h4{
+    background: url(../images/proserve_hotBg.jpg) no-repeat center bottom;
+    background-size: 100%;
+    padding: 8px 0;
+    font-weight: 600;
+}
+.main .container .row .project h4{
+    background: url(../images/proserve_hotBg.jpg) no-repeat center bottom;
+    background-size: 100%;
+    padding: 8px 0;
+    font-weight: 600;
+}
+
+.main .container .row .project-bottom{
+    margin-bottom: 30px;
+}
+
+.main .container .row .article h5{
+    margin-top: 0px;
+}
+.main .container .row .article h5 > a{
+    text-decoration: none;
+    color: #333;
+    line-height: 1.3;
+}
+
+.main .container .row .article h5 > a:hover{
+    color: #c09f82;
+}
+
+.main .container .row .article span{
+    color: #c09f82;
+}
+
+.main .container .row .article h6{
+    font-size: 12px;
+    color: #ccc;
+}
+
+.main .container .row .article{
+    margin-bottom: 40px;
+}
+
+
+/***产品服务****/
+
+.tab_list .container .row{
+    width: 70%;
+    margin: 30px auto;
+    padding-left: 10px;
+}
+
+.tab_list .container .row >div {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 100%;
+    background: url(../images/proserve_tabBg.jpg) no-repeat center left;
+    background-size: auto 100%;
+    cursor: pointer;
+}
+
+.tab_list .container .row >div img{
+    width: 47px;
+    height: 47px;
+    margin: 15% auto;
+}
+.tab_list .container .row >div p{
+    height: 25%;
+    text-align: center;
+    color: #333;
+}
+
+.tab_list .container .row >div a{
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+.tab_list .container .row >div a:hover{
+    color: #c09f82;
+}
+
+.physiotherapy{
+    margin-top: 0;
+}
+.physiotherapy .container .row >div h3{
+    color: #c09f82;
+    font-weight: 600;
+    font-size: 19px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.physiotherapy .container .row div h5{
+    color: #c09f82;
+    font-size: 16px;
+}
+
+.physiotherapy .container .row .article h5{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.physiotherapy .container .row .col-md-8 .col-md-9 {
+    margin-bottom: 5px;
+}
+
+.physiotherapy .container .row .content .col-md-8 .left{
+    font-size: 12px;
+}
+
+.physiotherapy .container .row .content .col-md-8 .right{
+     padding: 0;
+     -webkit-box-shadow:none;
+     font-size: 12px;
+}
+
+.physiotherapy .container .row .content{
+    background: #fff;
+}
+.physiotherapy .container .row .content .col-md-8{
+    padding-right: 30px;
+}
+.physiotherapy .container .row .content .col-md-12{
+    padding-top: 0;
+}
+
+
+/****分店******/
+
+.shop .container .row .content .col-md-7 h5>a{
+    color: #c09f82;
+}
+
+.shop .container .row .content .col-md-5 img:hover{
+    -webkit-box-shadow: 0 0px 5px #000;
+}

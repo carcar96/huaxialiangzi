@@ -1,0 +1,207 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/font_1.1.1/iconfont.eot');
+  src: url('../fonts/font_1.1.1/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/font_1.1.1/iconfont.woff') format('woff'),
+  url('../fonts/font_1.1.1/iconfont.ttf') format('truetype'),
+  url('../fonts/font_1.1.1/iconfont.svg#iconfont') format('svg');
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/font_1.1.2/iconfont.eot');
+  src: url('../fonts/font_1.1.2/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/font_1.1.2/iconfont.woff') format('woff'),
+  url('../fonts/font_1.1.2/iconfont.ttf') format('truetype'),
+  url('../fonts/font_1.1.2/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+html,body{
+    font-family: "微软雅黑";
+    background-color: #fcfcfa;
+}
+      
+.header_nav {
+    width: 58%;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.header_nav .brand_logoBox {
+    width: 24%;
+    height: 100%;
+    float: left;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -moz-box-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-orient: horizontal;
+    justify-content: center;
+    position: relative;
+}
+
+.header_nav .brand_logoBox a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.header_nav .brand_logoBox img {
+    width: 100%;
+    display: block;
+    border: 0;
+}
+.header_nav .logoBox_right img {
+    width: 100%;
+    display: block;
+    border: 0;
+}
+
+.header_nav .brand_logoBox .five_star {
+    position: absolute;
+    left: 100%;
+    bottom: 15px;
+}
+.header_nav .brand_logoBox .five_star {
+    width: 150%;
+    float: left;
+    font-size: 15px;
+    color: #9fa0a0;
+    position: absolute;
+    left: 100%;
+    bottom: 20px;
+    margin-left: 10px;
+}
+
+.header_nav .logoBox_right {
+    width: 30%;
+    height: 100%;
+    float: right;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -moz-box-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-orient: horizontal;
+    justify-content: center;
+}
+
+
+.header .navbar-default{
+    margin-top:100px;
+    background-color: #bb987a;
+}
+
+.header .navbar-default .navbar-collapse ul li+li{
+    border-left: 1px solid #d4bba4;
+}
+
+.header .navbar-default .navbar-collapse ul li > a{
+    color: #fff;
+    font-size: 16px;
+}
+
+.header .navbar-default .navbar-collapse ul li > a:hover{
+    color: #56412f;
+}
+
+.header .navbar-default .navbar-collapse ul li .dropdown-menu{
+    background: #bb987a;
+}
+
+
+.header .navbar-default .navbar-collapse ul .dropdown-menu{
+    margin-top:-4px;
+    min-width:0;
+    border: none;
+    border-radius:0;
+}
+.navbar-right .dropdown-menu{
+    left: 0;
+}
+
+.header .navbar-default .navbar-collapse ul .dropdown-menu > li{
+    border-left: none;
+}
+
+.header .navbar-default .navbar-collapse ul .dropdown-menu > li > a {
+    font-size: 16px;
+    line-height: 40px;
+    color: #333;
+    padding: 3px 15px;
+}
+
+.header .navbar-default .navbar-collapse ul .dropdown-menu > li > a:hover{
+    color: #fff;
+    background: transparent;
+}
+
+.header .navbar-default .navbar-collapse ul .dropdown > a{
+    background: transparent;
+}
+
+.header .navbar-default{
+    margin-top: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-brand > img {
+    width: 55px;
+    margin-top: -15px;
+    display: none;
+}
+.bread-nav .breadcrumb{
+    background: #fff;
+    box-shadow: rgb(204, 204, 204) 0px 4px 8px;
+    width: 60%;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: none;
+}
+
+.bread-nav .breadcrumb li a{
+    color: #c09f82;
+}
+
+/*屏幕缩小时*/
+@media (min-width: 769px) and (max-width: 991px) {
+    .header_nav .brand_logoBox .five_star{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .header_nav .brand_logoBox .five_star{
+        display: none;
+    }
+    .header_nav .brand_logoBox img{
+        width: 150%;
+    }
+    .header_nav .logoBox_right img{
+        width: 150%;
+    }
+    .navbar-brand > img {
+        /*display: block;*//**显示logo**/
+    }
+}
